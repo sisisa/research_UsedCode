@@ -18,8 +18,8 @@ def clean_text(text):
     
     return cleaned_text
 
-input_folder = 'D:/研究資料/research_ja'  # 入力ファイルが含まれるフォルダのパス
-output_folder = 'research_ja_clean'  # 出力ファイルを保存するフォルダのパス
+input_folder = 'input_folder'  # 入力ファイルが含まれるフォルダのパス
+output_folder = 'output_folder'  # 出力ファイルを保存するフォルダのパス
 
 # 出力フォルダが存在しない場合は作成
 if not os.path.exists(output_folder):
